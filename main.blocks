@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="bIe,fmb%R//2.@{?fjI6" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="KT;nn~FLJ5@VwS-672T5"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="80]%jg#EYhJNLOY+Smcx"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id=",]28xHrb?+;b%[Wh-BON"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="device_get_button2" id="af4?j-8OE)]B4W=:,J(o"><field name="NAME">Button.B</field></block></value><statement name="DO1"><block type="device_show_leds" id="7=rVlcc_ra#{N||)r3d6"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="MW.%JaIhevJ@PoqfsEJp"><field name="LEDS">`
+        . . # # . 
+        . # . . # 
+        . # . . # 
+        . # . . # 
+        . . # # .
+        `</field></block></statement></block></statement></block></xml>
